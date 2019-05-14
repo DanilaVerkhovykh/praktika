@@ -7,7 +7,7 @@ using namespace std;
 int main() {
 	SetConsoleCP(1251);
 	SetConsoleOutputCP(1251);
-	ifstream fin("bin.txt");	// Открытие файла на считывание данных из него
+	ifstream fin("a.txt");	// Открытие файла на считывание данных из него
 	while (!fin.eof()) {
 		string s;
 		fin >> s;	// Считывание данных из файла
